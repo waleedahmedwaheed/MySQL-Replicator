@@ -1,0 +1,10 @@
+[mysqld]
+server-id=1
+log_bin=mysql-bin
+binlog_do_db=testdb
+relay_log=relay-bin
+auto_increment_increment=2
+auto_increment_offset=1
+
+# Replication settings
+replicate_do_db=testdb
